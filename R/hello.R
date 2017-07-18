@@ -11,3 +11,8 @@ plus_five<-function(x){
   z<-x+5
   return(z)
 }
+
+plus_six<-function(x){
+  z<-x+6
+  return(z)
+}

@@ -11,3 +11,7 @@ library(testpkg)
 ```{r}
 plus_five(6)
 ```
+
+```{r}
+plus_six(6)
+```
