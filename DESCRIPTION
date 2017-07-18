@@ -5,7 +5,7 @@ Version: 0.1.0.a
 Author: Moritz Nykamp
 Maintainer: The package maintainer <yourself@somewhere.net>
 Description: This compedium contains data and code for publication in <JOURNAL>.
-    The version that match <doi:xxx/xxx>
+    The version that match <doi:xxx/xxx> Don't forget to enter the DOI!
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
