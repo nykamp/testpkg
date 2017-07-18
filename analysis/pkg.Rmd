@@ -1,0 +1,13 @@
+---
+title: "My first package"
+author: "Moritz Nykamp"
+date: '`r Sys.Date()`'
+output: bookdown::html_document2
+---
+```{r}
+library(testpkg)
+```
+
+```{r}
+plus_five(6)
+```

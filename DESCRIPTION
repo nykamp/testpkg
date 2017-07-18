@@ -1,0 +1,12 @@
+Package: testpkg
+Type: Package
+Title: Demonstration of package concepts
+Version: 0.1.0
+Author: Moritz Nykamp
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: This compedium contains data and code for publication in <JOURNAL>.
+    The version that match <doi:xxx/xxx>
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Suggests: testthat
