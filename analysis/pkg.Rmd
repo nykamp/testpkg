@@ -3,15 +3,37 @@ title: "My first package"
 author: "Moritz Nykamp"
 date: '`r Sys.Date()`'
 output: bookdown::html_document2
+bibliography: my_bib.bib
+csl: quaternary-international.csl.txt
 ---
-```{r}
+# Load library
+```{r, echo=FALSE}
 library(testpkg)
 ```
 
-```{r}
+# Executing tests
+The result of the first test is:
+```{r, echo=FALSE}
 plus_five(6)
 ```
-
-```{r}
-plus_six(6)
+and of the secon test:
+```{r, echo=FALSE}
+plus_six(7)
 ```
+
+## Plot a figure
+In figure \@ref(fig:testplot) random numbers are plotted
+```{r testplot, fig.cap="Random numbers", echo=FALSE}
+plot(testplot())
+```
+
+## Insert a table
+Table \@ref(tab:testtab) shows random numbers
+```{r testtab, echo=FALSE}
+knitr::kable(head(testtab()),
+caption = "Random numbers")
+```
+
+Random numbers are random [@erpul2003sediment; @saxton1986estimating; @shao1993effect].
+
+## References
